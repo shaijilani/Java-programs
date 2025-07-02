@@ -1,0 +1,30 @@
+class Book {
+    String Name;
+    String Author;
+    int Price;
+    
+        void getName() {
+        
+            System.out.println(Name);
+        }
+        void getAuthor() {
+            System.out.println(Author);
+        }
+        void getPrice( ) {
+            System.out.println(Price);
+        }
+        
+        
+    }
+
+class Main{
+    public static void main(String args[]){
+         Book B=new Book();
+        B.Name="Maths";
+        B.Author="Jilani";
+        B.Price=100;
+        B.getName();
+        B.getAuthor();
+        B.getPrice();
+    }
+}
