@@ -1,0 +1,24 @@
+class Employee{
+String Name;
+    int Id;
+    int No;
+    int Salary;
+    void display(){
+        System.out.println(Name);
+        System.out.println(Id);
+        System.out.println(No);
+        System.out.println(Salary);
+        
+        
+    }
+}
+class Main{
+    public static void main(String args[]){
+        Employee E=new Employee();
+        E.Name="jilani";
+        E.Id=7;
+        E.No=21;
+        E.Salary=100000;
+        E.display();
+    }
+}
