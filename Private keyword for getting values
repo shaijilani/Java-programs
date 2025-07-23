@@ -1,0 +1,24 @@
+class Human{
+    private String name = "Jilani";
+    private int age = 20;
+    public String getName ()
+    {
+       return name ;
+   }
+   
+   
+   public int getAge()
+ {
+return age;
+}
+  
+}
+class Main {
+    public static void main(String args []){
+    Human h= new Human();
+    
+  
+   System.out.println(h.getName()+ h.getAge());
+   
+}
+}
