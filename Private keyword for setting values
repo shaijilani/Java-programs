@@ -23,8 +23,6 @@ public void setAge(int a)
 class Main {
     public static void main(String args []){
     Human h= new Human();
-    h.name = "Jilani";
-   h.age = 20;
    h.setAge(20);
    h.setName("Jilani");
   
